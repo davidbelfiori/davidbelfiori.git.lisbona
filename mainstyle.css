@@ -1,0 +1,75 @@
+html,body{height: 100%;}
+
+body{background: #1d3557;}
+.header{background:#457b9d;margin: 0px;}
+.header_logo{color: white;float: left;display: block;padding: 20px; font-family: 'Alegreya SC', serif; , cursive; font-size: x-large;}
+.header_menu{float: right; margin: 0;padding: 0;}
+.header_menu_item{display:inline-block ;}
+.header_menu_item a{color: #eee;float: left;display: block;padding: 20px;font-family: 'Alegreya SC', serif;, cursive;font-size:large;text-decoration: none;}
+.header_menu_item a:hover{background: #000;}
+
+
+
+p{line-height: 22px;}
+
+.cover{height: 100%;
+    background-image: url(https://source.unsplash.com/HXowJK9BoSU/1200x900);
+    background-size: cover;
+    -o-backgroung-size:cover;
+    -moz-background-size:cover ;
+    position: relative;
+
+
+}
+
+.cover_filter{
+    background: rgb(63, 63, 63);
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.15;
+}
+
+.cover_capiton{
+
+    display: table;
+    height:100%;
+    width:100%;
+
+
+}
+.cover_capiton_copy{
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center ;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 300%;
+    color:white;
+
+}
+
+
+
+.cards{ max-width: 1200px ;margin:  40px auto;  }
+.card{ width: 30%;margin: 0  1.5%;background:#f1faee;float: left;}
+.card_im{width: 100%;height: auto;}
+.card_copy{padding: 5px 20px;}
+.card_copy h3{margin-bottom: 0;}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
